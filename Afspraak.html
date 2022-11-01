@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tandartsafspraak</title>
+<meta charset="utf-8">
+<meta name="description" content="Afspraak tandarts">
+</head>
+<body>
+<h1><b>Tandartsafspraak</b></h1>
+<form id="contactform" action="https://formspree.io/f/mwkzbyvn" method="post">
+<p>Welkom bij Dental Clinics Rotterdam Ommoord, dé tandarts in de Noord-Rotterdamse wijk Ommoord. U bent bij ons van harte welkom voor complete tandheelkundige mondzorg voor jong en oud! Met ons ervaren team van tandartsen, mondhygiënisten en (paro preventie-)assistenten staan wij zes dagen in de week voor u klaar uw mond gezond te maken én de houden! En bij ons betaalt u nooit meer dan nodig is, want wij werken met de tarieven die door de overheid zijn vastgesteld.</p>
+<figure>
+<img
+src="https://cdn.pixabay.com/photo/2014/08/26/21/53/dentist-428645_960_720.jpg"
+alt="tandarts" title="foto tandarts kind"
+width="300" height="200">
+<img
+src="https://cdn.pixabay.com/photo/2018/06/26/08/28/woman-3498849_960_720.jpg"
+alt="tandarts" title="tanden lach"
+width="300" height="200">
+<img
+src="https://cdn.pixabay.com/photo/2017/02/27/13/09/brushing-teeth-2103219_960_720.jpg"
+alt="tandarts" title="tanden poetsen"
+width="300" height="200">
+</figure>
+<form method="post" action="bewaarInformatie.php"><table width="600" border="0">
+<tbody>
+<fieldset>
+<legend><b>Persoonlijke gegevens</b>
+</legend>
+<label for="naam">Naam:</label>
+<input id="naam" type="text" name="naam">
+<br>
+<br>
+<label for="adres">Adres:</label>
+<input type="text" id="adres" name="adres">
+<br>
+<br>
+<label for="geslacht">Geslacht:</label>
+<input type="radio" id="geslacht" name="geslacht" value="man" checked>Man
+<input type="radio" id="geslacht" name="geslacht" value="vrouw">Vrouw
+<input type="radio" id="geslacht" name="geslacht" value="anders">Anders
+<br>
+<br>
+<label for="leeftijd">Leeftijd:</label>
+<input type="number" id="leeftijd" name="leeftijd" min="1" max="100">
+<br>
+<br>
+<label for="e-mail">Emailadres:</label>
+<input type="email" id="e-mail" name="emailadres">
+<br>
+<br>
+<label for="telefoon">Telefoonnummer:</label>
+<input type="tel" id="telefoon" name="telefoonnummer">
+<br>
+<br>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend><b>Beschrijving van de klachten</b>
+</legend>
+<label for="klachten">Wat zijn uw klachten? (kies één of meerdere):</label>
+<input type="checkbox" id="klachten" name="klachten" value="Gewone controle">Gewone controle
+<input type="checkbox" id="klachten" name="klachten" value="Kiespijn">Kiespijn
+<input type="checkbox" id="klachten" name="klachten" value="Tand afgebroken">Tand afgebroken
+<input type="checkbox" id="klachten" name="klachten" value="Vulling kwijt">Vulling kwijt
+<input type="checkbox" id="klachten" name="klachten" value="Kaakontsteking">Kaakontsteking
+<br>
+<br>
+<label for="file">Voeg foto van uw klachten toe:</label>
+<input type="file" id="file" name="foto">
+<br>
+<br>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend><b>Toelichting van de klachten</b>
+</legend>
+<textarea name ="bericht" maxlength ="1500">
+</textarea>
+<br>
+<br>
+<label for="date">Datum afspraak:</label>
+<input type="date" id="datum afspraak" name="datum afspraak" max="2080-12-31">
+<br>
+<br>
+</fieldset>
+<tr>
+<td>&nbsp;</td>
+<td>
+<button type="submit" name="verzendknop">
+<strong>Verzend</strong>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</form>
+</body>
+</html>
